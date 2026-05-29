@@ -91,7 +91,7 @@ modem_5g_free(dev);
 
 ## 详细使用
 
-参考test/test_5g_mr880a.c。或者自行获取官方的AT指令说明文档。
+参考example/test_5g_mr880a.c。或者自行获取官方的AT指令说明文档。
 
 ## 常见问题
 
