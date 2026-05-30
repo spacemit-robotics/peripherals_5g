@@ -38,10 +38,10 @@ install(FILES include/5g.h
     DESTINATION include
 )
 
-option(BUILD_TESTS "Build test programs" OFF)
+option(BUILD_TESTS "Build example programs" OFF)
 
 if(BUILD_TESTS)
-    add_executable(test_5g_mr880a test/test_5g_mr880a.c)
+    add_executable(test_5g_mr880a example/test_5g_mr880a.c)
     target_link_libraries(test_5g_mr880a modem_5g)
     set_target_properties(test_5g_mr880a PROPERTIES BUILD_RPATH "$ORIGIN/../lib")
     install(TARGETS test_5g_mr880a RUNTIME DESTINATION bin)
