@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>modem_5g</name>
+  <version>0.1.0</version>
+  <description>5G modem library for MR880A UART AT control</description>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
